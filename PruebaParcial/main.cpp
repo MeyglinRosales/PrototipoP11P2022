@@ -1,12 +1,12 @@
-# incluir  < stdio.h >
-# definir  N  3
+# incluir  <iostream>
+
 principal ()
 {
-int m1[N][N] = {{ 1 , 1 , 1 }, { 2 , 2 , 2 }, { 3 , 3 , 3 }};
-intm2 [N][N];
+int m1[3][3] = {{ 1 , 1 , 1 }, { 2 , 2 , 2 }, { 3 , 3 , 3 }};
+intm2 [3][3];
 entero x, y;
-para (x= 0 ; x < N; x++)
-para (y= 0 ; y < N; y++)
+para (x= 0 ; x < 3; x++)
+para (y= 0 ; y < 3; y++)
 si (m1[x][y]% 2 == 0 )
 m2[x][y] = 0 ;
 demás
